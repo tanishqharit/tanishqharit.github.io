@@ -6,27 +6,40 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #2b70c9;
+  /* Ink Blue Light */
+  --ifm-color-primary-dark: #2765b5;
+  --ifm-color-primary-darker: #255fa3;
+  --ifm-color-primary-darkest: #1e4d85;
+  --ifm-color-primary-light: #4182d4;
+  --ifm-color-primary-lighter: #528cd9;
+  --ifm-color-primary-lightest: #7aa5e2;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #5c9ce6;
+  /* Ink Blue Dark */
+  --ifm-color-primary-dark: #4089e2;
+  --ifm-color-primary-darker: #3180e0;
+  --ifm-color-primary-darkest: #1e6acc;
+  --ifm-color-primary-light: #7cb1ec;
+  --ifm-color-primary-lighter: #8bbc72;
+  --ifm-color-primary-lightest: #a1cefc;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Light/Dark mode toggle icon swap logic */
+[data-theme='light'] .clean-btn.toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module svg {
+  color: #1c1e21;
+  /* Dark icon in light mode */
+}
+
+[data-theme='dark'] .clean-btn.toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module svg {
+  color: #e3e3e3;
+  /* Light icon in dark mode */
 }
 
 /* Slim Footer */
