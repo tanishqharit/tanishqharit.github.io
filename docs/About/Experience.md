@@ -14,8 +14,8 @@ sidebar_position: 2
 **Alcor Technical Solutions, LLC.** · *Internship*  
 *Oct 2025 - Dec 2025 · Jersey City, New Jersey, United States · Remote*
 
-- Architected and deployed an internal RAG (Retrieval-Augmented Generation) system that reduced proposal search time by 95% (from 30-min manual lookup to <5-sec response), saving ~20 hours/week for the proposal team.
-- Engineered a retrieval pipeline (Python/FastAPI/ChromaDB) with recursive chunking for PDF/DOCX ingestion, achieving p95 vector retrieval latency of <200ms across 100+ documents.
+- Architected and deployed an internal RAG (Retrieval-Augmented Generation) system that reduced proposal search time by 95% (from 30-min manual lookup to &lt;5-sec response), saving ~20 hours/week for the proposal team.
+- Engineered a retrieval pipeline (Python/FastAPI/ChromaDB) with recursive chunking for PDF/DOCX ingestion, achieving p95 vector retrieval latency of &lt;200ms across 100+ documents.
 - Built a full-stack, streaming interface using React.js, featuring real-time token generation and automated source citation, driving active adoption among non-technical stakeholders.
 - Designed a secure, local-first architecture using HuggingFace embeddings (all-MiniLM-L6-v2) to process sensitive data on-premise, sending only retrieved context snippets to the LLM (Gemini/GPT-4), which ensured data never left the premises and reduced exposure risk to meet compliance requirements.
 - Introduced structured JSON logging for observability and maintaining ~80% test coverage across critical API paths via a Pytest suite.
