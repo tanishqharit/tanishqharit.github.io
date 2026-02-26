@@ -47,6 +47,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          path: 'Z_MarkDowns',
           routeBasePath: '/', // Set this to '/' to put docs at the root
           sidebarPath: './sidebars.js',
         },
