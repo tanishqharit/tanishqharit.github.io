@@ -49,10 +49,6 @@ const config = {
         docs: {
           routeBasePath: '/', // Set this to '/' to put docs at the root
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: false, // Disable the blog plugin
         theme: {
@@ -74,7 +70,7 @@ const config = {
         title: 'Tanishq Harit',
         items: [
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/tanishqharit',
             label: 'GitHub',
             position: 'right',
           },
