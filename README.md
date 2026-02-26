@@ -1,41 +1,23 @@
-# Website
+# Tanishq Harit | Digital Garden
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repository contains the source code and Markdown notes for my digital garden and portfolio, hosted automatically via GitHub Pages.
 
-## Installation
+## Managing Content
 
-```bash
-yarn
-```
+To add or edit content on the website:
+1. Navigate to the `docs/` folder.
+2. Create or modify `.md` (Markdown) files.
+3. Commit and push the changes to the `main` branch.
+
+A GitHub Actions workflow will automatically rebuild the site and deploy the changes live.
 
 ## Local Development
 
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+To preview changes locally before pushing:
 
 ```bash
-yarn build
+npm install
+npm run start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This will run a local development server at `http://localhost:3000/Portfolio/` where you can see edits applied instantly.
