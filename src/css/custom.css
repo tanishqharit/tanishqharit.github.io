@@ -1,13 +1,6 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
+/* Light theme color variables */
 :root {
   --ifm-color-primary: #0969da;
-  /* Link Blue Light */
   --ifm-color-primary-dark: #085ebd;
   --ifm-color-primary-darker: #0859b2;
   --ifm-color-primary-darkest: #064993;
@@ -18,10 +11,9 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark theme color variables */
 [data-theme='dark'] {
   --ifm-color-primary: #58a6ff;
-  /* Link Blue Dark */
   --ifm-color-primary-dark: #3291ff;
   --ifm-color-primary-darker: #1f86ff;
   --ifm-color-primary-darkest: #006aec;
@@ -31,18 +23,15 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Light/Dark mode toggle icon swap logic */
+/* Light/Dark mode toggle icon */
 [data-theme='light'] .clean-btn.toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module svg {
   color: #1c1e21;
-  /* Dark icon in light mode */
 }
 
 [data-theme='dark'] .clean-btn.toggleButton_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module svg {
   color: #e3e3e3;
-  /* Light icon in dark mode */
 }
 
-/* Slim Footer */
 .footer {
   padding: 1rem 0 !important;
   text-align: center;
