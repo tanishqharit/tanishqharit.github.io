@@ -66,6 +66,12 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
+      algolia: {
+        appId: '5CRHSE3JIM',
+        apiKey: '37c69ea7ccc268b9e6fc24aebcad6e52',
+        indexName: 'tanishqharit_portfolio',
+        contextualSearch: true,
+      },
       navbar: {
         title: 'Tanishq Harit',
         items: [
