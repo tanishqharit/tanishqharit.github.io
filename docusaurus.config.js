@@ -25,6 +25,17 @@ const config = {
     locales: ['en'],
   },
 
+  // Algolia Custom Meta Tags Header - for search bar functionality approval
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'algolia-site-verification',
+        content: 'AEA78EBD943D8C37',
+      },
+    },
+  ],
+
   // Custom preset for our website
   presets: [
     [
