@@ -34,10 +34,7 @@ const config = {
         docs: {
           path: 'Z_MarkDowns',
           routeBasePath: '/',
-          sidebarPath: false,
-          sidebarItemsGenerator: async ({ defaultSidebarItemsGenerator, ...args }) => {
-            return defaultSidebarItemsGenerator(args);
-          },
+          sidebarPath: './sidebars.js',
         },
 
         blog: false,
