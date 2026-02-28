@@ -68,4 +68,4 @@ And somewhere in those three months, watching financial data at a national scale
 
 ### Certificate
 
-![Certificate Image](/Users/tanishqharit/VSC_Projects/Portfolio/static/img/LTI_Certificate.png)
+![Certificate Image](/img/LTI_Certificate.png)
