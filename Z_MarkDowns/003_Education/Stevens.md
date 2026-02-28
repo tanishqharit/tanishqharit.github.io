@@ -1,14 +1,15 @@
 ---
 sidebar_position: 1
+sidebar_label: M.Sc. Computer Science
 ---
 
 # Stevens Institute of Technology
-**Master of Science - MS, Computer Science**  
-*September 2024 – May 2026*
-**Hoboken, New Jersey, United States**
+Charles V. Schaefer, Jr. School of Engineering and Science <br/>
 
-**Grade:** 3.4 GPA
-**Recipient of Provost Master's Scholarship**
+**Master of Science - Computer Science**  <br/>
+*September 2024 – May 2026* <br/>
+
+**Grade:** 3.4 GPA <br/>
 
 ### Coursework
 - CS 501 - Introduction to Java Programming
@@ -23,3 +24,8 @@ sidebar_position: 1
 - FE 513 - Financial Lab: Practical Aspects of Database Design
 - BIA 660 - Web Mining
 - CS 703 - Practicum in Computer Science (Internships)
+
+### Course Projects 
+
+
+
