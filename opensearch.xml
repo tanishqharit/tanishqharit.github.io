@@ -4,8 +4,8 @@
   <ShortName>Tanishq Harit Portfolio</ShortName>
   <Description>Search Tanishq Harit Portfolio</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://tanishqharit.github.io/Portfolio/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://tanishqharit.github.io/Portfolio/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://tanishqharit.github.io/Portfolio/opensearch.xml" />
-  <moz:SearchForm>https://tanishqharit.github.io/Portfolio/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://tanishqharit.github.io/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://tanishqharit.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://tanishqharit.github.io/opensearch.xml" />
+  <moz:SearchForm>https://tanishqharit.github.io/</moz:SearchForm>
 </OpenSearchDescription>
