@@ -11,11 +11,11 @@ const config = {
 
   // URL
   url: 'https://tanishqharit.github.io',
-  baseUrl: '/Portfolio/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'tanishqharit', // Github user name 
-  projectName: 'Portfolio',         // Github repository name 
+  projectName: 'tanishqharit.github.io',         // Github repository name 
   trailingSlash: false,
   onBrokenLinks: 'throw',
 
