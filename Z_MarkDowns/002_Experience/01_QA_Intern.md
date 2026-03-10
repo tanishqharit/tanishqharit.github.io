@@ -3,13 +3,13 @@ sidebar_position: 4
 sidebar_label: Quality Assurance Intern
 ---
 
-# LTIMindtree Limited <br/>
+# LTIMindtree Limited
 **Quality Assurance Intern** <br/>
 *May 2022 – July 2022* <br/>
 On-site, Location:  Delhi, India
 
-### TL;DR 🥱
-> - Conducted data validation and exploratory manual testing on Project Insight, the data warehouse solution for the Income Tax Department of India, catering to 135M+ registered taxpayers, ensuring the accuracy of data on the Annual Information Statement (AIS) financial summaries.
+## TL;DR 🥱
+> - Conducted data validation and exploratory manual testing on Project Insight, the data warehouse solution for the Income Tax Department of India, catering to 135M + registered taxpayers, ensuring the accuracy of data on the Annual Information Statement (AIS) financial summaries.
 > - Handled the defects through Bugzilla, collaborating with the development team in resolving 100+ functional defects and enforcing strict government compliance.
 
 ### Skills Acquired
@@ -20,7 +20,7 @@ On-site, Location:  Delhi, India
 
 ### Background
 
-I got this opportunity during my summer break between my 2nd and 3rd year of undergraduate. LTIMindtree wanted to give some training to students with their QA team already deployed on a government project, and the requirements were simple, like having completed at least 1 year of undergrad and a decent GPA. I had both of these qualifications, so I applied through my college's training and placement department, and before I knew it, I had my first corporate offer letter sitting in my inbox.
+I got this opportunity during my summer break between my 2nd and 3rd year of undergraduate. LTIMindtree wanted to give some training to students with their QA team already deployed on a government project, and the requirements were simple, like having completed at least 1 year of undergraduate and a decent GPA. I had both of these qualifications, so I applied through my college's training and placement department, and before I knew it, I had my first corporate offer letter sitting in my inbox.
 
 To be honest, I had no idea what Quality Assurance even was at that point. I was about to find out.
 
@@ -28,7 +28,7 @@ To be honest, I had no idea what Quality Assurance even was at that point. I was
 
 ### The Project
 
-I was assigned to **Project Insight**, a system designed and developed for the **Income Tax Department of India**. Not some internal tool, mind you, but a system used by 135+ million plus citizens of India.
+I was assigned to the **Project Insight**, a system designed and developed for the **Income Tax Department of India**. Not some internal tool, mind you, but a system used by 135 million plus citizens of India.
 The project was essentially a big system with two main components:
 - **INTRAC** (Income Tax Transaction Analysis Centre), the analytical engine of the system, responsible for data integration, data warehousing, data quality monitoring, enterprise reporting, and web/text mining.
 - **CMCPC** (Compliance Management Centralized Processing Centre), the outreach engine of the system, responsible for taxpayer outreach through email, SMS, outbound call campaigns, and a Compliance Portal.
@@ -46,7 +46,7 @@ Very different from any project I had worked on so far.
 | **Week 2 (Bugzilla)** | I was introduced to Bugzilla by the junior member of the team. It seemed like an endless email loop, testing team to development team—raise an issue, fix it, send it back, test again, etc. I quickly learned that crafting a good bug report is not an entry-level task, but a skill in itself. |
 | **Week 3 (The Portal and a Strict Mentor)** | I began interacting with the portal: Annual Information Statement (AIS) and Taxpayer Information Summary (TIS) components of the national e-filing system. My mentor was strict. Even when I was correct, my mentor re-tested my work. I learned discipline, documentation standards, and that corners should not be cut. |
 | **Week 4 (Flying Solo)** | By week four, I had earned the privilege to send bugs directly to developers. Flagging errors in the portal, writing reproduction steps, and tracking the bugs felt like a small shift on paper, but a massive leap in practice. |
-| **Middle Weeks (In the groove)** | Weeks of heads-down testing: log in, navigate, validate, document, repeat. **Logged and tracked over 100 functional defects in Bugzilla**. I occasionally made mistakes, like raising a "false positive" bug that sometimes prompted developers to walk to my desk to correct me. It was mildly embarrassing but taught me to be slower and more deliberate before hitting submit. |
+| **Middle Weeks (In the groove)** | Weeks of heads-down testing: log in, navigate, validate, document, repeat. **Logged and tracked over 100 functional defects using Bugzilla**. I occasionally made mistakes, like raising a "false positive" bug that sometimes prompted developers to walk to my desk to correct me. It was mildly embarrassing but taught me to be slower and more deliberate before hitting submit. |
 | **Last Week** | The manager asked me to write a final project report. Writing about Project Insight, INTRAC/CMCPC systems, and portal workflows helped me realize how far I've come. In three months, I went from not knowing what QA meant to independently testing a national tax platform. |
 
 Not bad for a summer 😀
